@@ -154,5 +154,7 @@ This was the last week，I decide to make a slides and take a video. I had finis
 
 ![IMG_0794 2](https://user-images.githubusercontent.com/119190967/206574152-f756872e-ff19-44c1-8112-9ddf8523c61f.PNG)
 
+After doing the assembly of the installation, I then needed to start making my slides page, and then found that because of my personal habits I just didn't leave a lot of marks, such as photos etc., so it was a pain to make the slides and make sure to leave some marks afterwards so that I could correct myself etc.
+
 
 
