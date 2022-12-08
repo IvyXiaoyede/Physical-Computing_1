@@ -150,4 +150,9 @@ Add I want to use the Acrylic board to make a house. So I draw a picture which c
 
 
 # Week 9
+This was the last week，I decide to make a slides and take a video. I had finished laser cutting last week so I had an easier task this week and just had to go and assemble it, but I had a hard time controlling my set up when assembling it and when replacing materials found that the materials were not as I wanted them to be, so I changed the way I expressed it to a different method. I used laser paper as a cover for the film fabric, with small balls inside that bounced in response to the fan, thus achieving the concept of a restless sound.
+
+![IMG_0794 2](https://user-images.githubusercontent.com/119190967/206574152-f756872e-ff19-44c1-8112-9ddf8523c61f.PNG)
+
+
 
