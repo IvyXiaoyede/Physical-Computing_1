@@ -1,8 +1,7 @@
 # Physical-Computing_1
 
 # Week 6
-
-In week 6, I want to make sure which sensor I want to use it, and test it. Finally I make a decision to use the sound sensor and a HC-SR501. But at the first time, I never think about the HC-SR501, I use the distance sensor. But the distance sensor cannot test the coming things is a people, only test the something coming, so I want to change the sensor. Than I use the PIR ，it was a good sensor but there has a red light always bright, it was not I want. Finally, I decided to use a HC-SR501, it was a good sensor to test coming things is people and without any light.
+This week, I want to make sure which sensor I want to use, and test it. Finally, I decide to use the sound sensor and an HC-SR501. But the first time, I never think about the HC-SR501, I use the distance sensor. But the distance sensor cannot test the coming things a people, only test the something coming, so I want to change the sensor. Then I use the PIR，it was a good sensor but there has a red light always bright, it was not what I want. Finally, I decided to use an HC-SR501, it was a good sensor to test coming things in people and without any light.
 
 
 <img width="619" alt="截屏2022-12-08 下午3 55 29" src="https://user-images.githubusercontent.com/119190967/206495567-5ccd0b47-a44c-4400-8fd7-fee3eaef33ce.png">
@@ -52,7 +51,7 @@ void loop() {
 
 <img width="489" alt="截屏2022-12-08 下午4 01 15" src="https://user-images.githubusercontent.com/119190967/206497095-d7c80778-c2cc-47e7-b67e-4dac64d661aa.png">
 
-Then I design a workflow to help me to understand the work, to help me to thinking more logically. And I also draw a Tinkecad to help me understand the route map，but the Tinkecad without the sound sensor, so I only can draw the sound sensor and to link it.
+Then I design a workflow to help me to understand the work, to help me to think more logically. And I also draw a Tinkecad to help me understand the route map， but the Tinkecad is without a sound sensor, so I only can draw the sound sensor and link it.
 
 <img width="493" alt="截屏2022-12-08 下午3 55 59" src="https://user-images.githubusercontent.com/119190967/206497530-e27cd08b-89e2-4022-b6f1-512a275ebb33.png">
 
@@ -60,9 +59,9 @@ Then I design a workflow to help me to understand the work, to help me to thinki
 
 # Week 7
 
-In this week I want to link sensors, and test the connect witrh the every sensor. At first, I try to link the LED strip and the sound sensor. But I meet a problem that I did not know how to control the color of the lights, they only show the colorful light and I cannot use the code to control it. So I found the other LED strip, and I found it the code only can use for the LED_TYPE WS2812, and the LED Strip type is different to use it, it can use it under the water. Than I borrow the other LED strip and add the other code about how to control turn off the LED strip.
+This week I want to link sensors and test the connection with every sensor. At first, I try to link the LED strip and the sound sensor. But I meet a problem in that I did not know how to control the colour of the lights, they only show colourful light and I cannot use the code to control it. So I found the other LED strip, and I found the code only can use for the LED_TYPE WS2812, and the LED Strip type is different to use it, it can use under the water. Then I borrow the other LED strip and add the other code about how to control and turn off the LED strip.
 
-Then, I want to link sensors, I link the LED strip and the Sound senser at first, an test it. Here is a LED test code:
+Then, I want to link sensors, I link the LED strip and the Sound sensor first, and test it. Here is a LED test code:
 
 ```
 // include library
@@ -106,7 +105,7 @@ void loop() {
 }
 ```
 
-Secondly, I use the fans and sound sensor,in order to link the sound sensor with the fans I found a question that fans is a direct current never have the motors to change it, I test for a long time and I found the ULN2003 driver is a good motor to help sound sensor and fans linking.
+Secondly, I use the fans and sound sensor, in order to link the sound sensor with the fans I found a question the fans a direct current never have the motors to change it, I test for a long time and I found the ULN2003 driver is a good motor to help sound sensor and fans linking.
 
 ![stepper-motor-and-uln2003-driver-board](https://user-images.githubusercontent.com/119190967/206562173-6f1263da-b9e8-4ab2-a996-a2771279f862.jpeg)
 
@@ -139,16 +138,16 @@ void loop() {
 ```
 
 # Week 8
+This week, I think the most important thing is to do the house to decorate it. And I need to solder the wiring with a tool because, in the end, we don't use the breadboard to control it. I spent two days to finish it, actually, I only can use it for one day, but something was wrong and some lines were broken. So I need to relink at next day.
 
-In this week, I think the most important things is to do the house to decorate it. And I need to soldering the wiring with a tool, because at the end we don't use the breadboard to control it. I spead two days to finish it, actually I only can use one day, but something wrong and some line broken. So I need to relink at next day.
+Finish to linking the circuits， I must test it to make sure it can be successfully used it. And I found many questions about the link, so I must do it again, it was a piece of sad news. After doing this work twice later, I successfully linked it, and it can be used.
 
 ![WechatIMG58](https://user-images.githubusercontent.com/119190967/206564820-729b3353-b20f-4eb2-8307-6276e86d410d.jpeg)
 
-Add I want to use the Acrylic board to making a house. So I draw a picture which can be used in the laser cutter machine. And I use the cut board to cut it at first, and use for testing. I found a problem that I never combine it successfully. I asked other students how to solve the problem and eventually I found that I had to design interpolation to make the cut more stable.
+Add I want to use the Acrylic board to make a house. So I draw a picture which can be used in the laser cutter machine. And I use the cut board to cut it at first and use it for testing. I found a problem that I never combine successfully. I asked other students how to solve the problem and eventually, I found that I had to design interpolation to make the cut more stable.
 
 ![位图](https://user-images.githubusercontent.com/119190967/206565778-6ff42a61-be0e-4054-a8b7-796110f87a5b.jpg)
 
 
-
-
 # Week 9
+
