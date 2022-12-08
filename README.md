@@ -9,6 +9,45 @@ In week 6, I want to make sure which sensor I want to use it, and test it. Final
 
 <img width="547" alt="image" src="https://user-images.githubusercontent.com/119190967/206496518-9a3a8958-b77f-4331-a60c-5d3a010757e0.png">
 
+```
+
+#define trigPin 6 //输入
+#define echoPin 5 //输出
+
+
+long duration; 
+int distance; 
+
+void setup() {
+  pinMode(5, OUTPUT); 
+  pinMode(6, INPUT); 
+  pinMode(12,OUTPUT);
+  Serial.begin(9600); 
+ // Serial.println("Ultrasonic Sensor HC-SR04 Test"); 
+ // Serial.println("with Arduino UNO R3");
+}
+void loop() {
+  digitalWrite(12, LOW);
+  //digitalWrite(5, LOW);
+  delayMicroseconds(2);
+  
+  //digitalWrite(5, HIGH);
+  //delayMicroseconds(10);
+ // digitalWrite(5, LOW);
+
+  duration = pulseIn(6, HIGH);
+
+ // distance = duration * 0.034 / 2; 
+  
+  Serial.print("Distance: ");
+  Serial.print(distance);
+    Serial.println(duration);
+  if(distance<=10)
+  {
+    digitalWrite(12, HIGH);
+    }
+}
+```
 
 
 <img width="489" alt="截屏2022-12-08 下午4 01 15" src="https://user-images.githubusercontent.com/119190967/206497095-d7c80778-c2cc-47e7-b67e-4dac64d661aa.png">
